@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary: #2ec4b6;
+$primary-light: #cbf3f0;
+$secondary: #ff9f1c;
+$secondary-light: #ffbf69;
+// $danger: #ff4136;
+
+$theme-colors: (
+  "primary": $primary,
+  "primary-light": $primary-light,
+  "secondary": $secondary,
+  "secondary-light": $secondary-light,
+  // //   "success": $success,
+  // //   "info": $info,
+  // //   "warning": $warning,
+  // //   "danger": $danger,
+  // //   "light": $light,
+  // //   "dark": $dark,,,,,,
+);
+
+.conteudo-centralizado {
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

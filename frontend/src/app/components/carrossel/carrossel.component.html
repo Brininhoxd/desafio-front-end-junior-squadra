@@ -1,0 +1,13 @@
+<ngu-carousel #myCarousel [inputs]="carrosselConfig" [dataSource]="ngDataSource">
+    <ngu-tile *nguCarouselDef="let item; let i = index">
+        <div class="tile">
+            <app-card [ngDataSource]="item"></app-card>
+        </div>
+    </ngu-tile>
+    <button NguCarouselNext class="controle btn btn-secondary-light btn-lg" style="right: 0;">
+        <img src="assets/img/arrow-right.svg">
+    </button>
+    <button NguCarouselPrev class="controle btn btn-secondary-light btn-lg" style="left: 0;">
+        <img src="assets/img/arrow-left.svg">
+    </button>
+</ngu-carousel>
