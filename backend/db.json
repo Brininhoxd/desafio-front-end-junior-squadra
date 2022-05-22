@@ -20,7 +20,8 @@
                 "destaque 2",
                 "destaque 3",
                 "destaque 4"
-            ]
+            ],
+            "img": "assets/img/hoteis/hotel1.jpg"
         },
         {
             "id": 2,
@@ -39,7 +40,8 @@
             "destaques": [
                 "destaque 3",
                 "destaque 4"
-            ]
+            ],
+            "img": "assets/img/hoteis/hotel2.jpg"
         },
         {
             "id": 3,
@@ -55,7 +57,8 @@
             ],
             "destaques": [
                 "destaque 4"
-            ]
+            ],
+            "img": "assets/img/hoteis/hotel3.jpg"
         },
         {
             "id": 4,
@@ -71,7 +74,8 @@
             ],
             "destaques": [
                 "destaque 1"
-            ]
+            ],
+            "img": "assets/img/hoteis/hotel4.jpg"
         },
         {
             "id": 5,
@@ -99,7 +103,8 @@
                 "destaque 4",
                 "destaque 5",
                 "destaque 6"
-            ]
+            ],
+            "img": "assets/img/hoteis/hotel5.jpg"
         },
         {
             "id": 6,
@@ -115,7 +120,8 @@
             ],
             "destaques": [
                 "destaque 1"
-            ]
+            ],
+            "img": "assets/img/restaurantes/restaurante1.jpg"
         },
         {
             "id": 7,
@@ -132,7 +138,8 @@
             "destaques": [
                 "destaque 1",
                 "destaque 2"
-            ]
+            ],
+            "img": "assets/img/restaurantes/restaurante2.jpg"
         },
         {
             "id": 8,
@@ -151,7 +158,8 @@
                 "destaque 1",
                 "destaque 2",
                 "destaque 3"
-            ]
+            ],
+            "img": "assets/img/restaurantes/restaurante3.jpg"
         },
         {
             "id": 9,
@@ -173,7 +181,8 @@
                 "destaque 2",
                 "destaque 3",
                 "destaque 4"
-            ]
+            ],
+            "img": "assets/img/restaurantes/restaurante4.jpg"
         },
         {
             "id": 10,
@@ -199,7 +208,8 @@
                 "destaque 3",
                 "destaque 4",
                 "destaque 5"
-            ]
+            ],
+            "img": "assets/img/hoteis/hotel6.jpg"
         },
         {
             "id": 11,
@@ -235,7 +245,8 @@
                 "destaque 6",
                 "destaque 7",
                 "destaque 8"
-            ]
+            ],
+            "img": "assets/img/hoteis/hotel7.jpg"
         },
         {
             "id": 12,
@@ -251,7 +262,8 @@
             ],
             "destaques": [
                 "destaque 1"
-            ]
+            ],
+            "img": "assets/img/entretenimento/entretenimento1.jpg"
         },
         {
             "id": 13,
@@ -281,7 +293,8 @@
                 "destaque 4",
                 "destaque 5",
                 "destaque 6"
-            ]
+            ],
+            "img": "assets/img/restaurantes/restaurante5.jpg"
         },
         {
             "id": 14,
@@ -298,7 +311,8 @@
             ],
             "destaques": [
                 "destaque 1"
-            ]
+            ],
+            "img": "assets/img/entretenimento/entretenimento2.jpg"
         },
         {
             "id": 15,
@@ -319,7 +333,8 @@
                 "destaque 2",
                 "destaque 3",
                 "destaque 4"
-            ]
+            ],
+            "img": "assets/img/entretenimento/entretenimento3.jpg"
         },
         {
             "id": 15,
@@ -341,7 +356,8 @@
                 "destaque 2",
                 "destaque 3",
                 "destaque 4"
-            ]
+            ],
+            "img": "assets/img/entretenimento/entretenimento4.jpg"
         },
         {
             "id": 16,
@@ -379,7 +395,8 @@
                 "destaque 8",
                 "destaque 9",
                 "destaque 10"
-            ]
+            ],
+            "img": "assets/img/restaurantes/restaurante6.jpg"
         },
         {
             "id": 17,
@@ -401,7 +418,8 @@
                 "destaque 2",
                 "destaque 3",
                 "destaque 4"
-            ]
+            ],
+            "img": "assets/img/entretenimento/entretenimento5.jpg"
         }
     ]
 }

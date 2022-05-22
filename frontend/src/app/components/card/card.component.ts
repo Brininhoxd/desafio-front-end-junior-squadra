@@ -1,14 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
-export interface Oferta {
-  id: number,
-  titulo: string,
-  descricaoBreve: string,
-  valor: number,
-  categoria: { id: number, nome: string },
-  detalhes: string[],
-  destaques: string[]
-}
+import { Oferta } from 'src/app/helpers/types';
 
 @Component({
   selector: 'app-card',
@@ -18,7 +9,7 @@ export interface Oferta {
 export class CardComponent implements OnInit {
 
   @Input()
-  public ngDataSource: any = 0
+  public ngDataSource: Oferta = {} as Oferta
 
   constructor() { }
 

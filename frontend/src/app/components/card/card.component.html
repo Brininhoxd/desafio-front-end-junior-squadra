@@ -1,10 +1,15 @@
 <div class="card text-center">
-    <img src="https://picsum.photos/50" height="50px" width="50" class="card-img-top">
+    <img [src]="ngDataSource.img" width="290px" height="135px" class="card-img-top">
     <div class="card-body">
-        <h5 class="card-title">titulo {{ngDataSource}}</h5>
-        <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, voluptatem veniam quas officia porro!
-            Accusamus sit aut iusto esse, odio, illum necessitatibus
-            <a href="#" class="btn btn-primary">Comprar</a>
+        <h5 class="card-title">{{ngDataSource.titulo}}</h5>
+        <section class="card-text">
+            <p>
+                {{ngDataSource.descricaoBreve}}
+            </p>
+            <p>
+                {{ngDataSource.valor | currency : 'BRL'}}
+            </p>
+        </section>
+        <a href="#" class="btn btn-primary">Comprar</a>
     </div>
 </div>

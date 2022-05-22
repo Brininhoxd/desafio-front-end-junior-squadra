@@ -11,20 +11,9 @@ $theme-colors: (
   "primary-light": $primary-light,
   "secondary": $secondary,
   "secondary-light": $secondary-light,
-  // //   "success": $success,
-  // //   "info": $info,
-  // //   "warning": $warning,
-  // //   "danger": $danger,
-  // //   "light": $light,
-  // //   "dark": $dark,,,,,,
 );
 
-.conteudo-centralizado {
-  height: 91vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";

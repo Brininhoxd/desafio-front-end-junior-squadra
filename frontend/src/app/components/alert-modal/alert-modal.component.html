@@ -1,0 +1,4 @@
+<ngb-toast *ngFor="let alert of alertService.alerts" [class]="alert.classname" [autohide]="true" [delay]="2000"
+    (hidden)="alertService.retirar(alert)">
+    {{ alert.menssagem }}
+</ngb-toast>

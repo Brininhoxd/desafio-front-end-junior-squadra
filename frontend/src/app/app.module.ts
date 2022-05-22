@@ -1,14 +1,21 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NguCarouselModule } from '@ngu/carousel';
+import { HttpClientModule } from '@angular/common/http'
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import ptBr from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
 
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CarrosselComponent } from './components/carrossel/carrossel.component';
 import { CardComponent } from './components/card/card.component';
+import { AlertModalComponent } from './components/alert-modal/alert-modal.component';
+
+registerLocaleData(ptBr);
 
 @NgModule({
   declarations: [
@@ -16,14 +23,20 @@ import { CardComponent } from './components/card/card.component';
     HomeComponent,
     HeaderComponent,
     CarrosselComponent,
-    CardComponent
+    CardComponent,
+    AlertModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NguCarouselModule
+    NguCarouselModule,
+    HttpClientModule,
+    NgbModule
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID,
+    useValue: 'pt-BR'
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

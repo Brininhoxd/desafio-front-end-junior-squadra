@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NguCarouselConfig } from '@ngu/carousel';
+import { Oferta } from 'src/app/helpers/types';
 
 @Component({
   selector: 'app-carrossel',
@@ -8,8 +9,8 @@ import { NguCarouselConfig } from '@ngu/carousel';
 })
 export class CarrosselComponent implements OnInit {
   public carrosselConfig: NguCarouselConfig = {
-    grid: { xs: 1, sm: 1, md: 5, lg: 5, all: 0 },
-    slide: 5,
+    grid: { xs: 1, sm: 1, md: 4, lg: 4, all: 0 },
+    slide: 4,
     speed: 550,
     point: {
       visible: false
@@ -22,12 +23,11 @@ export class CarrosselComponent implements OnInit {
   };
 
   @Input()
-  public ngDataSource: any[] = []
+  public ngDataSource: Oferta[] = []
 
   constructor() { }
 
   ngOnInit() {
-    this.ngDataSource = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   }
 
 }
