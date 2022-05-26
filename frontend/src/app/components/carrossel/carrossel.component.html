@@ -1,4 +1,4 @@
-<ngu-carousel #myCarousel [inputs]="carrosselConfig" [dataSource]="ngDataSource">
+<ngu-carousel #carrosel [inputs]="carrosselConfig" [dataSource]="ngDataSource">
     <ngu-tile *nguCarouselDef="let item; let i = index">
         <div class="tile">
             <app-card [ngDataSource]="item"></app-card>

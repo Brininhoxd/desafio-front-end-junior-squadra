@@ -1,0 +1,23 @@
+<section>
+    <ngu-carousel #carrosel [inputs]="carrosselConfig" [dataSource]="ngDataSource">
+        <ngu-tile *nguCarouselDef="let item; let i = index">
+            <div class="tile">
+                <img src="{{item}}" loading="lazy" width="100%" height="220px">
+            </div>
+        </ngu-tile>
+
+        <button NguCarouselNext class="controle btn btn-primary-light btn-lg" style="right: 0;">
+            <img src="assets/img/arrow-right.svg">
+        </button>
+        <button NguCarouselPrev class="controle btn btn-primary-light btn-lg" style="left: 0;">
+            <img src="assets/img/arrow-left.svg">
+        </button>
+
+        <ul class="ponto" NguCarouselPoint>
+            <li *ngFor="let ponto of carrosel.pointNumbers; let i = index" [class.active]="i == carrosel.activePoint"
+                (click)="carrosel.moveTo(i)">
+            </li>
+        </ul>
+
+    </ngu-carousel>
+</section>

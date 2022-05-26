@@ -1,425 +1,426 @@
 {
-    "ofertas": [
-        {
-            "id": 1,
-            "titulo": "Hotel 1",
-            "descricaoBreve": "Primeiro hotel cadastrado 1",
-            "valor": 199.99,
-            "categoria": {
-                "id": 1,
-                "nome": "Hotel"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4"
-            ],
-            "img": "assets/img/hoteis/hotel1.jpg"
-        },
-        {
-            "id": 2,
-            "titulo": "Hotel 2",
-            "descricaoBreve": "Hotel cadastrado 2",
-            "valor": 299.99,
-            "categoria": {
-                "id": 1,
-                "nome": "Hotel"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3"
-            ],
-            "destaques": [
-                "destaque 3",
-                "destaque 4"
-            ],
-            "img": "assets/img/hoteis/hotel2.jpg"
-        },
-        {
-            "id": 3,
-            "titulo": "Hotel 3",
-            "descricaoBreve": "Hotel cadastrado 3",
-            "valor": 59,
-            "categoria": {
-                "id": 1,
-                "nome": "Hotel"
-            },
-            "detalhes": [
-                "detalhe 1"
-            ],
-            "destaques": [
-                "destaque 4"
-            ],
-            "img": "assets/img/hoteis/hotel3.jpg"
-        },
-        {
-            "id": 4,
-            "titulo": "Hotel 4",
-            "descricaoBreve": "Hotel cadastrado 4",
-            "valor": 19,
-            "categoria": {
-                "id": 1,
-                "nome": "Hotel"
-            },
-            "detalhes": [
-                "detalhe 1"
-            ],
-            "destaques": [
-                "destaque 1"
-            ],
-            "img": "assets/img/hoteis/hotel4.jpg"
-        },
-        {
-            "id": 5,
-            "titulo": "Hotel 5",
-            "descricaoBreve": "Hotel cadastrado 5",
-            "valor": 595,
-            "categoria": {
-                "id": 1,
-                "nome": "Hotel"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4",
-                "detalhe 5",
-                "detalhe 6",
-                "detalhe 7",
-                "detalhe 8"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4",
-                "destaque 5",
-                "destaque 6"
-            ],
-            "img": "assets/img/hoteis/hotel5.jpg"
-        },
-        {
-            "id": 6,
-            "titulo": "Restaurante 1",
-            "descricaoBreve": "Primeiro restaurante cadastrado 1",
-            "valor": 35.22,
-            "categoria": {
-                "id": 2,
-                "nome": "Restaurante"
-            },
-            "detalhes": [
-                "detalhe 1"
-            ],
-            "destaques": [
-                "destaque 1"
-            ],
-            "img": "assets/img/restaurantes/restaurante1.jpg"
-        },
-        {
-            "id": 7,
-            "titulo": "Restaurante 2",
-            "descricaoBreve": "Restaurante cadastrado 2",
-            "valor": 45.99,
-            "categoria": {
-                "id": 2,
-                "nome": "Restaurante"
-            },
-            "detalhes": [
-                "detalhe 1"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2"
-            ],
-            "img": "assets/img/restaurantes/restaurante2.jpg"
-        },
-        {
-            "id": 8,
-            "titulo": "Restaurante 3",
-            "descricaoBreve": "Restaurante cadastrado 3",
-            "valor": 88.33,
-            "categoria": {
-                "id": 2,
-                "nome": "Restaurante"
-            },
-            "detalhes": [
-                "detalhe 3",
-                "detalhe 4"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3"
-            ],
-            "img": "assets/img/restaurantes/restaurante3.jpg"
-        },
-        {
-            "id": 9,
-            "titulo": "Restaurante 4",
-            "descricaoBreve": "Restaurante cadastrado 4",
-            "valor": 100,
-            "categoria": {
-                "id": 2,
-                "nome": "Restaurante"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4"
-            ],
-            "img": "assets/img/restaurantes/restaurante4.jpg"
-        },
-        {
-            "id": 10,
-            "titulo": "Hotel 5",
-            "descricaoBreve": "Hotel cadastrado 5",
-            "valor": 700,
-            "categoria": {
-                "id": 1,
-                "nome": "Hotel"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4",
-                "detalhe 5",
-                "detalhe 6",
-                "detalhe 7"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4",
-                "destaque 5"
-            ],
-            "img": "assets/img/hoteis/hotel6.jpg"
-        },
-        {
-            "id": 11,
-            "titulo": "Hotel 6",
-            "descricaoBreve": "Hotel cadastrado 6",
-            "valor": 1199.99,
-            "categoria": {
-                "id": 1,
-                "nome": "Hotel"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4",
-                "detalhe 5",
-                "detalhe 6",
-                "detalhe 7",
-                "detalhe 8",
-                "detalhe 9",
-                "detalhe 10",
-                "detalhe 11",
-                "detalhe 12",
-                "detalhe 13",
-                "detalhe 14"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4",
-                "destaque 5",
-                "destaque 6",
-                "destaque 7",
-                "destaque 8"
-            ],
-            "img": "assets/img/hoteis/hotel7.jpg"
-        },
-        {
-            "id": 12,
-            "titulo": "Entreterimento 1",
-            "descricaoBreve": "Primeiro entreterimento cadastrado 1",
-            "valor": 50,
-            "categoria": {
-                "id": 3,
-                "nome": "Entreterimento"
-            },
-            "detalhes": [
-                "detalhe 1"
-            ],
-            "destaques": [
-                "destaque 1"
-            ],
-            "img": "assets/img/entretenimento/entretenimento1.jpg"
-        },
-        {
-            "id": 13,
-            "titulo": "Restaurante 5",
-            "descricaoBreve": "Restaurante cadastrado 5",
-            "valor": 199.99,
-            "categoria": {
-                "id": 2,
-                "nome": "Restaurante"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4",
-                "detalhe 5",
-                "detalhe 6",
-                "detalhe 7",
-                "detalhe 8",
-                "detalhe 9",
-                "detalhe 10"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4",
-                "destaque 5",
-                "destaque 6"
-            ],
-            "img": "assets/img/restaurantes/restaurante5.jpg"
-        },
-        {
-            "id": 14,
-            "titulo": "Entreterimento 2",
-            "descricaoBreve": "Entreterimento cadastrado 2",
-            "valor": 69,
-            "categoria": {
-                "id": 3,
-                "nome": "Entreterimento"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2"
-            ],
-            "destaques": [
-                "destaque 1"
-            ],
-            "img": "assets/img/entretenimento/entretenimento2.jpg"
-        },
-        {
-            "id": 15,
-            "titulo": "Entreterimento 3",
-            "descricaoBreve": "Entreterimento cadastrado 3",
-            "valor": 80,
-            "categoria": {
-                "id": 3,
-                "nome": "Entreterimento"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4"
-            ],
-            "img": "assets/img/entretenimento/entretenimento3.jpg"
-        },
-        {
-            "id": 15,
-            "titulo": "Entreterimento 4",
-            "descricaoBreve": "Entreterimento cadastrado 4",
-            "valor": 99.99,
-            "categoria": {
-                "id": 3,
-                "nome": "Entreterimento"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4"
-            ],
-            "img": "assets/img/entretenimento/entretenimento4.jpg"
-        },
-        {
-            "id": 16,
-            "titulo": "Restaurante 6",
-            "descricaoBreve": "Restaurante cadastrado 6",
-            "valor": 399.99,
-            "categoria": {
-                "id": 2,
-                "nome": "Restaurante"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4",
-                "detalhe 5",
-                "detalhe 6",
-                "detalhe 7",
-                "detalhe 8",
-                "detalhe 9",
-                "detalhe 10",
-                "detalhe 11",
-                "detalhe 12",
-                "detalhe 13",
-                "detalhe 14"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4",
-                "destaque 5",
-                "destaque 6",
-                "destaque 7",
-                "destaque 8",
-                "destaque 9",
-                "destaque 10"
-            ],
-            "img": "assets/img/restaurantes/restaurante6.jpg"
-        },
-        {
-            "id": 17,
-            "titulo": "Entreterimento 5",
-            "descricaoBreve": "Entreterimento cadastrado 5",
-            "valor": 199.99,
-            "categoria": {
-                "id": 3,
-                "nome": "Entreterimento"
-            },
-            "detalhes": [
-                "detalhe 1",
-                "detalhe 2",
-                "detalhe 3",
-                "detalhe 4"
-            ],
-            "destaques": [
-                "destaque 1",
-                "destaque 2",
-                "destaque 3",
-                "destaque 4"
-            ],
-            "img": "assets/img/entretenimento/entretenimento5.jpg"
-        }
-    ]
+  "ofertas": [
+    {
+      "id": 1,
+      "titulo": "Hotel 1",
+      "descricaoBreve": "Primeiro hotel cadastrado 1",
+      "valor": 199.99,
+      "categoria": {
+        "id": 1,
+        "nome": "Hotel"
+      },
+      "detalhes": ["detalhe 1", "detalhe 2", "detalhe 3", "detalhe 4"],
+      "destaques": ["destaque 1", "destaque 2", "destaque 3", "destaque 4"],
+      "imgs": [
+        "assets/img/hoteis/hotel1.jpg",
+        "assets/img/hoteis/hotel5.jpg",
+        "assets/img/hoteis/hotel8.jpg",
+        "assets/img/hoteis/hotel2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Hotel 2",
+      "descricaoBreve": "Hotel cadastrado 2",
+      "valor": 299.99,
+      "categoria": {
+        "id": 1,
+        "nome": "Hotel"
+      },
+      "detalhes": ["detalhe 1", "detalhe 2", "detalhe 3"],
+      "destaques": ["destaque 3", "destaque 4"],
+      "imgs": [
+        "assets/img/hoteis/hotel2.jpg",
+        "assets/img/hoteis/hotel9.jpg",
+        "assets/img/hoteis/hotel10.jpg",
+        "assets/img/hoteis/hotel4.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Hotel 3",
+      "descricaoBreve": "Hotel cadastrado 3",
+      "valor": 59,
+      "categoria": {
+        "id": 1,
+        "nome": "Hotel"
+      },
+      "detalhes": ["detalhe 1"],
+      "destaques": ["destaque 4"],
+      "imgs": [
+        "assets/img/hoteis/hotel3.jpg",
+        "assets/img/hoteis/hotel7.jpg",
+        "assets/img/hoteis/hotel1.jpg",
+        "assets/img/hoteis/hotel4.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Hotel 4",
+      "descricaoBreve": "Hotel cadastrado 4",
+      "valor": 19,
+      "categoria": {
+        "id": 1,
+        "nome": "Hotel"
+      },
+      "detalhes": ["detalhe 1"],
+      "destaques": ["destaque 1"],
+      "imgs": [
+        "assets/img/hoteis/hotel4.jpg",
+        "assets/img/hoteis/hotel3.jpg",
+        "assets/img/hoteis/hotel6.jpg",
+        "assets/img/hoteis/hotel7.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Hotel 5",
+      "descricaoBreve": "Hotel cadastrado 5",
+      "valor": 595,
+      "categoria": {
+        "id": 1,
+        "nome": "Hotel"
+      },
+      "detalhes": [
+        "detalhe 1",
+        "detalhe 2",
+        "detalhe 3",
+        "detalhe 4",
+        "detalhe 5",
+        "detalhe 6",
+        "detalhe 7",
+        "detalhe 8"
+      ],
+      "destaques": [
+        "destaque 1",
+        "destaque 2",
+        "destaque 3",
+        "destaque 4",
+        "destaque 5",
+        "destaque 6"
+      ],
+      "imgs": [
+        "assets/img/hoteis/hotel5.jpg",
+        "assets/img/hoteis/hotel1.jpg",
+        "assets/img/hoteis/hotel3.jpg",
+        "assets/img/hoteis/hotel10.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Restaurante 1",
+      "descricaoBreve": "Primeiro restaurante cadastrado 1",
+      "valor": 35.22,
+      "categoria": {
+        "id": 2,
+        "nome": "Restaurante"
+      },
+      "detalhes": ["detalhe 1"],
+      "destaques": ["destaque 1"],
+      "imgs": [
+        "assets/img/restaurantes/restaurante1.jpg",
+        "assets/img/restaurantes/restaurante5.jpg",
+        "assets/img/restaurantes/restaurante8.jpg",
+        "assets/img/restaurantes/restaurante3.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Restaurante 2",
+      "descricaoBreve": "Restaurante cadastrado 2",
+      "valor": 45.99,
+      "categoria": {
+        "id": 2,
+        "nome": "Restaurante"
+      },
+      "detalhes": ["detalhe 1"],
+      "destaques": ["destaque 1", "destaque 2"],
+      "imgs": [
+        "assets/img/restaurantes/restaurante2.jpg",
+        "assets/img/restaurantes/restaurante4.jpg",
+        "assets/img/restaurantes/restaurante6.jpg",
+        "assets/img/restaurantes/restaurante1.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Restaurante 3",
+      "descricaoBreve": "Restaurante cadastrado 3",
+      "valor": 88.33,
+      "categoria": {
+        "id": 2,
+        "nome": "Restaurante"
+      },
+      "detalhes": ["detalhe 3", "detalhe 4"],
+      "destaques": ["destaque 1", "destaque 2", "destaque 3"],
+      "imgs": [
+        "assets/img/restaurantes/restaurante3.jpg",
+        "assets/img/restaurantes/restaurante4.jpg",
+        "assets/img/restaurantes/restaurante9.jpg",
+        "assets/img/restaurantes/restaurante5.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Restaurante 4",
+      "descricaoBreve": "Restaurante cadastrado 4",
+      "valor": 100,
+      "categoria": {
+        "id": 2,
+        "nome": "Restaurante"
+      },
+      "detalhes": ["detalhe 1", "detalhe 2", "detalhe 3", "detalhe 4"],
+      "destaques": ["destaque 1", "destaque 2", "destaque 3", "destaque 4"],
+      "imgs": [
+        "assets/img/restaurantes/restaurante4.jpg",
+        "assets/img/restaurantes/restaurante6.jpg",
+        "assets/img/restaurantes/restaurante9.jpg",
+        "assets/img/restaurantes/restaurante2.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Hotel 5",
+      "descricaoBreve": "Hotel cadastrado 5",
+      "valor": 700,
+      "categoria": {
+        "id": 1,
+        "nome": "Hotel"
+      },
+      "detalhes": [
+        "detalhe 1",
+        "detalhe 2",
+        "detalhe 3",
+        "detalhe 4",
+        "detalhe 5",
+        "detalhe 6",
+        "detalhe 7"
+      ],
+      "destaques": [
+        "destaque 1",
+        "destaque 2",
+        "destaque 3",
+        "destaque 4",
+        "destaque 5"
+      ],
+      "imgs": [
+        "assets/img/hoteis/hotel6.jpg",
+        "assets/img/hoteis/hotel4.jpg",
+        "assets/img/hoteis/hotel9.jpg",
+        "assets/img/hoteis/hotel3.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "titulo": "Hotel 6",
+      "descricaoBreve": "Hotel cadastrado 6",
+      "valor": 1199.99,
+      "categoria": {
+        "id": 1,
+        "nome": "Hotel"
+      },
+      "detalhes": [
+        "detalhe 1",
+        "detalhe 2",
+        "detalhe 3",
+        "detalhe 4",
+        "detalhe 5",
+        "detalhe 6",
+        "detalhe 7",
+        "detalhe 8",
+        "detalhe 9",
+        "detalhe 10",
+        "detalhe 11",
+        "detalhe 12",
+        "detalhe 13",
+        "detalhe 14"
+      ],
+      "destaques": [
+        "destaque 1",
+        "destaque 2",
+        "destaque 3",
+        "destaque 4",
+        "destaque 5",
+        "destaque 6",
+        "destaque 7",
+        "destaque 8"
+      ],
+      "imgs": [
+        "assets/img/hoteis/hotel7.jpg",
+        "assets/img/hoteis/hotel5.jpg",
+        "assets/img/hoteis/hotel8.jpg",
+        "assets/img/hoteis/hotel2.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "titulo": "Entreterimento 1",
+      "descricaoBreve": "Primeiro entreterimento cadastrado 1",
+      "valor": 50,
+      "categoria": {
+        "id": 3,
+        "nome": "Entreterimento"
+      },
+      "detalhes": ["detalhe 1"],
+      "destaques": ["destaque 1"],
+      "imgs": [
+        "assets/img/entretenimento/entretenimento1.jpg",
+        "assets/img/entretenimento/entretenimento5.jpg",
+        "assets/img/entretenimento/entretenimento8.jpg",
+        "assets/img/entretenimento/entretenimento4.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "titulo": "Restaurante 5",
+      "descricaoBreve": "Restaurante cadastrado 5",
+      "valor": 199.99,
+      "categoria": {
+        "id": 2,
+        "nome": "Restaurante"
+      },
+      "detalhes": [
+        "detalhe 1",
+        "detalhe 2",
+        "detalhe 3",
+        "detalhe 4",
+        "detalhe 5",
+        "detalhe 6",
+        "detalhe 7",
+        "detalhe 8",
+        "detalhe 9",
+        "detalhe 10"
+      ],
+      "destaques": [
+        "destaque 1",
+        "destaque 2",
+        "destaque 3",
+        "destaque 4",
+        "destaque 5",
+        "destaque 6"
+      ],
+      "imgs": [
+        "assets/img/restaurantes/restaurante5.jpg",
+        "assets/img/restaurantes/restaurante3.jpg",
+        "assets/img/restaurantes/restaurante9.jpg",
+        "assets/img/restaurantes/restaurante7.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "titulo": "Entreterimento 2",
+      "descricaoBreve": "Entreterimento cadastrado 2",
+      "valor": 69,
+      "categoria": {
+        "id": 3,
+        "nome": "Entreterimento"
+      },
+      "detalhes": ["detalhe 1", "detalhe 2"],
+      "destaques": ["destaque 1"],
+      "imgs": [
+        "assets/img/entretenimento/entretenimento2.jpg",
+        "assets/img/entretenimento/entretenimento3.jpg",
+        "assets/img/entretenimento/entretenimento5.jpg",
+        "assets/img/entretenimento/entretenimento7.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "titulo": "Entreterimento 3",
+      "descricaoBreve": "Entreterimento cadastrado 3",
+      "valor": 80,
+      "categoria": {
+        "id": 3,
+        "nome": "Entreterimento"
+      },
+      "detalhes": ["detalhe 1", "detalhe 2", "detalhe 3"],
+      "destaques": ["destaque 1", "destaque 2", "destaque 3", "destaque 4"],
+      "imgs": [
+        "assets/img/entretenimento/entretenimento3.jpg",
+        "assets/img/entretenimento/entretenimento1.jpg",
+        "assets/img/entretenimento/entretenimento6.jpg",
+        "assets/img/entretenimento/entretenimento1.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "titulo": "Entreterimento 4",
+      "descricaoBreve": "Entreterimento cadastrado 4",
+      "valor": 99.99,
+      "categoria": {
+        "id": 3,
+        "nome": "Entreterimento"
+      },
+      "detalhes": ["detalhe 1", "detalhe 2", "detalhe 3", "detalhe 4"],
+      "destaques": ["destaque 1", "destaque 2", "destaque 3", "destaque 4"],
+      "imgs": [
+        "assets/img/entretenimento/entretenimento4.jpg",
+        "assets/img/entretenimento/entretenimento5.jpg",
+        "assets/img/entretenimento/entretenimento8.jpg",
+        "assets/img/entretenimento/entretenimento3.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "titulo": "Restaurante 6",
+      "descricaoBreve": "Restaurante cadastrado 6",
+      "valor": 399.99,
+      "categoria": {
+        "id": 2,
+        "nome": "Restaurante"
+      },
+      "detalhes": [
+        "detalhe 1",
+        "detalhe 2",
+        "detalhe 3",
+        "detalhe 4",
+        "detalhe 5",
+        "detalhe 6",
+        "detalhe 7",
+        "detalhe 8",
+        "detalhe 9",
+        "detalhe 10",
+        "detalhe 11",
+        "detalhe 12",
+        "detalhe 13",
+        "detalhe 14"
+      ],
+      "destaques": [
+        "destaque 1",
+        "destaque 2",
+        "destaque 3",
+        "destaque 4",
+        "destaque 5",
+        "destaque 6",
+        "destaque 7",
+        "destaque 8",
+        "destaque 9",
+        "destaque 10"
+      ],
+      "imgs": [
+        "assets/img/restaurantes/restaurante6.jpg",
+        "assets/img/restaurantes/restaurante5.jpg",
+        "assets/img/restaurantes/restaurante9.jpg",
+        "assets/img/restaurantes/restaurante1.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "titulo": "Entreterimento 5",
+      "descricaoBreve": "Entreterimento cadastrado 5",
+      "valor": 199.99,
+      "categoria": {
+        "id": 3,
+        "nome": "Entreterimento"
+      },
+      "detalhes": ["detalhe 1", "detalhe 2", "detalhe 3", "detalhe 4"],
+      "destaques": ["destaque 1", "destaque 2", "destaque 3", "destaque 4"],
+      "imgs": [
+        "assets/img/entretenimento/entretenimento5.jpg",
+        "assets/img/entretenimento/entretenimento1.jpg",
+        "assets/img/entretenimento/entretenimento7.jpg",
+        "assets/img/entretenimento/entretenimento6.jpg"
+      ]
+    }
+  ]
 }

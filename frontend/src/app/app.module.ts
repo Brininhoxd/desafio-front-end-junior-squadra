@@ -14,6 +14,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { CarrosselComponent } from './components/carrossel/carrossel.component';
 import { CardComponent } from './components/card/card.component';
 import { AlertModalComponent } from './components/alert-modal/alert-modal.component';
+import { OfertaComponent } from './views/oferta/oferta.component';
+import { CarrosselImagensComponent } from './components/carrossel-imagens/carrossel-imagens.component';
 
 registerLocaleData(ptBr);
 
@@ -24,7 +26,9 @@ registerLocaleData(ptBr);
     HeaderComponent,
     CarrosselComponent,
     CardComponent,
-    AlertModalComponent
+    AlertModalComponent,
+    OfertaComponent,
+    CarrosselImagensComponent
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,12 @@ export interface Oferta {
     categoria: { id: number, nome: string },
     detalhes: string[],
     destaques: string[],
-    img: string
+    imgs: string[]
+}
+
+export interface ParametrosUrl {
+    nomeParametro: string,
+    valor: string | number
 }
 
 

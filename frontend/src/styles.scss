@@ -13,6 +13,19 @@ $theme-colors: (
   "secondary-light": $secondary-light,
 );
 
+.btn {
+  padding: 0;
+}
+.controle {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 2em;
+  height: 2em;
+  z-index: 999;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 /* Importing Bootstrap SCSS file. */

@@ -1,15 +1,15 @@
 <div class="card text-center">
-    <img [src]="ngDataSource.img" width="290px" height="135px" class="card-img-top">
+    <img [src]="ngDataSource.imgs[0]" width="290px" height="135px" loading="lazy" class="card-img-top">
     <div class="card-body">
         <h5 class="card-title">{{ngDataSource.titulo}}</h5>
         <section class="card-text">
             <p>
-                {{ngDataSource.descricaoBreve}}
+                {{ngDataSource.detalhes[0]}}
             </p>
             <p>
                 {{ngDataSource.valor | currency : 'BRL'}}
             </p>
         </section>
-        <a href="#" class="btn btn-primary">Comprar</a>
+        <button class="btn btn-primary" (click)="abrirOferta()">Comprar</button>
     </div>
 </div>
