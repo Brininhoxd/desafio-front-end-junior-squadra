@@ -19,8 +19,8 @@ export class CardComponent implements OnInit {
 
   abrirOferta() {
     if (this.ngDataSource.id) {
-      let aux: ParametrosUrl = { nomeParametro: 'idOferta', valor: this.ngDataSource.id }
-      this.service.abrirNovaTela('oferta', [aux])
+      const parametrosUrl: ParametrosUrl = { nomeParametro: 'idOferta', valor: this.ngDataSource.id }
+      this.service.abrirNovaTela('oferta', [parametrosUrl])
     } else {
       this.service.tratarMenssagem('Ocorreu um erro!', 'bg-danger')
     }

@@ -1,0 +1,17 @@
+.preco {
+  display: flex;
+  width: 50%;
+  padding: 2em;
+//   border: 1px solid #aaaaaa;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total{
+    position: absolute;
+    bottom: 0px;
+    padding: 2em;
+    hr{
+        border: 1px dashed  #aaaaaa;
+    }
+}

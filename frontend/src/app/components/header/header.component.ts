@@ -9,8 +9,12 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: OfetasService) { }
 
   ngOnInit(): void {
+  }
+
+  teste() {
+    this.service.tratarMenssagem('bbbbbbbbbbbbb', 'bg-danger')
   }
 }

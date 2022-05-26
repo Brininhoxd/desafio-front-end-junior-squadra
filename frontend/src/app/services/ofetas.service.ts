@@ -30,14 +30,13 @@ export class OfetasService {
    * 
    */
   public abrirNovaTela(url: string, parametros?: ParametrosUrl[]): void {
+    const parametrosUrl: any = {}
     if (parametros?.length) {
-      let aux: any = {}
       parametros.forEach(parametro => {
-        aux[parametro.nomeParametro] = parametro.valor
+        parametrosUrl[parametro.nomeParametro] = parametro.valor
       });
-
-      this.router.navigate([`/${url}`], { queryParams: { ...aux } });
     }
+    this.router.navigate([`/${url}`], { queryParams: { ...parametrosUrl } });
   }
 
   /**
@@ -52,39 +51,29 @@ export class OfetasService {
   //  public injector: Injector,
   public getParametrosUrl(route: ActivatedRoute): any {
     let aux
-    route.queryParamMap.subscribe((params) => {
-      aux = { ...params.keys, ...params };
+    route.queryParamMap.subscribe((parametros) => {
+      aux = { ...parametros.keys, ...parametros };
     })
     return aux
   }
 
-  parseUrlParams(params: string): any {
-    let retorno: any = {};
-    let parametro: string[];
-    let campo: string[];
-
-    if (params.indexOf("(") == 0) {
-      params = params.slice(1);
+  /**
+   * enviarFormulario
+   * 
+   * Função para envio de formulario
+   * 
+   * @param formulario formulario a ser enviado
+   * 
+  */
+  public enviarFormulario(formulario: Object): any[] {
+    const valores = Object.values(formulario)
+    if (valores.includes(null)) {
+      this.tratarMenssagem("Preencha os campos corretamente!", 'bg-danger')
+      return []
+    } else {
+      this.tratarMenssagem("Compra feita com sucesso!", 'bg-success')
+      return valores
     }
-
-    if (params.indexOf(")") == params.length - 1) {
-      params = params.slice(0, -1);
-    }
-
-    parametro = params.split("|");
-    if (parametro) {
-      for (var x = 0; x < parametro.length; x++) {
-        if (parametro[x]) {
-          campo = parametro[x].split("=");
-
-          if (campo.length = 2) {
-            retorno[campo[0]] = campo[1]
-          }
-        }
-      }
-    }
-
-    return retorno;
   }
 
   /**

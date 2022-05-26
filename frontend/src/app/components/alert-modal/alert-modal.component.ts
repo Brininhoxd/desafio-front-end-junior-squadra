@@ -9,12 +9,6 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class AlertModalComponent implements OnInit {
 
-  // @Input()
-  // public dados: {
-  //   menssagem: string,
-  //   tipo: 'success' | 'info' | "warning" | 'danger'
-  // } = { menssagem: 'AAAAAAAAAAAAAAAA', tipo: 'success' }
-
   constructor(public alertService: AlertService) { }
 
   ngOnInit(): void {

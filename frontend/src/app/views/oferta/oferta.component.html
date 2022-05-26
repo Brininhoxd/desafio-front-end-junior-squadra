@@ -6,7 +6,7 @@
         <section style="display: flex; flex-direction: column; align-items: flex-start;">
             <h2> {{ofertaSelecionada.titulo}} </h2>
 
-            <p>{{ofertaSelecionada.detalhes[0]}}</p>
+            <p>{{detalhe}}</p>
 
             <p>por apenas</p>
 
@@ -19,7 +19,7 @@
 
 <section class="informacoes">
     <h2>Detalhes da oferta:</h2>
-    <div class="colunas">
+    <div>
         <p *ngFor="let detalhe of ofertaSelecionada.detalhes"><img src="assets/img/check-lg.svg"> Oferta inclui:
             {{detalhe}}
         </p>
@@ -30,7 +30,7 @@
 
 <section class="informacoes">
     <h2>Destaques da oferta:</h2>
-    <div class="colunas">
+    <div>
         <p *ngFor="let destaque of ofertaSelecionada.destaques"><img src="assets/img/star.svg">
             {{destaque}}
         </p>

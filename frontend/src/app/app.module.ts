@@ -8,6 +8,8 @@ import { HttpClientModule } from '@angular/common/http'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import ptBr from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
+import { ReactiveFormsModule } from "@angular/forms";
+import { NgxMaskModule } from 'ngx-mask'
 
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -16,6 +18,7 @@ import { CardComponent } from './components/card/card.component';
 import { AlertModalComponent } from './components/alert-modal/alert-modal.component';
 import { OfertaComponent } from './views/oferta/oferta.component';
 import { CarrosselImagensComponent } from './components/carrossel-imagens/carrossel-imagens.component';
+import { CheckoutComponent } from './views/checkout/checkout.component';
 
 registerLocaleData(ptBr);
 
@@ -28,14 +31,17 @@ registerLocaleData(ptBr);
     CardComponent,
     AlertModalComponent,
     OfertaComponent,
-    CarrosselImagensComponent
+    CarrosselImagensComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NguCarouselModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    NgxMaskModule.forRoot()
   ],
   providers: [{
     provide: LOCALE_ID,

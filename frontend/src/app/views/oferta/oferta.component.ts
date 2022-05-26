@@ -1,4 +1,4 @@
-import { Oferta } from './../../helpers/types';
+import { Oferta, ParametrosUrl } from './../../helpers/types';
 import { Component, Injector, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { OfetasService } from 'src/app/services/ofetas.service';
@@ -11,7 +11,8 @@ import { OfetasService } from 'src/app/services/ofetas.service';
 export class OfertaComponent implements OnInit {
   _idOferta: string = ''
   ofertaSelecionada: Oferta = {} as Oferta
-  public imagens: string[] = []
+  imagens: string[] = []
+  detalhe: string = ''
 
   constructor(private service: OfetasService, public injector: Injector) { }
 
@@ -26,14 +27,15 @@ export class OfertaComponent implements OnInit {
       this.service.getOfertasById(parseInt(parametrosUrl.params.idOferta)).subscribe((oferta) => {
         this.ofertaSelecionada = oferta
         this.imagens = this.ofertaSelecionada.imgs
-        console.log('imgs', this.imagens);
+        this.detalhe = this.ofertaSelecionada.detalhes[0]
       })
 
     }
   }
 
   abrirCheckOut() {
-    // this.service
+    const parametrosUrl: ParametrosUrl = { nomeParametro: 'idOferta', valor: this.ofertaSelecionada.id }
+    this.service.abrirNovaTela('checkout', [parametrosUrl])
   }
 
 }
